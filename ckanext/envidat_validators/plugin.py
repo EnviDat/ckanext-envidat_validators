@@ -5,8 +5,6 @@ import logging
 from ckan.plugins import SingletonPlugin, implements, interfaces
 
 from ckanext.envidat_validators.logic import (
-    composite_group2json,
-    composite_repeating_group2json,
     envidat_copy_type_general,
     envidat_minimum_description_length,
     envidat_minimum_tag_count,
@@ -36,6 +34,4 @@ class EnviDatValidatorsPlugin(SingletonPlugin):
             "envidat_reorder": envidat_reorder,
             "envidat_copy_type_general": envidat_copy_type_general,
             "envidat_minimum_description_length": envidat_minimum_description_length,
-            "composite_group2json": composite_group2json,
-            "composite_repeating_group2json": composite_repeating_group2json,
         }
