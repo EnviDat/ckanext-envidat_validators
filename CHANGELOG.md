@@ -1,3 +1,9 @@
+## 0.1.3 (2023-08-03)
+
+### Fix
+
+- missed removal of functions from plugin
+
 ## 0.1.2 (2023-08-03)
 
 ### Fix
