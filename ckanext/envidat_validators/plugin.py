@@ -23,6 +23,7 @@ class EnviDatValidatorsPlugin(SingletonPlugin):
     """
 
     implements(interfaces.IValidators)
+    implements(interfaces.IPackageController, inherit=True)
 
     # IValidators
     def get_validators(self):
@@ -35,3 +36,11 @@ class EnviDatValidatorsPlugin(SingletonPlugin):
             "envidat_copy_type_general": envidat_copy_type_general,
             "envidat_minimum_description_length": envidat_minimum_description_length,
         }
+
+    # IPackageController
+    def before_index(self, data_dict):
+        """Tasks to run prior to Solr re-indexing."""
+        # TODO fix Solr indexing once repeating fields enabled
+        # https://ckan.org/blog/scheming-subfields
+        # https://github.com/ckan/ckanext-scheming#repeating_subfields
+        return data_dict
