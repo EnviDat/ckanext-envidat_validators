@@ -1,3 +1,9 @@
+## 0.1.4 (2023-08-04)
+
+### Fix
+
+- add note for future refactor repeating subfields
+
 ## 0.1.3 (2023-08-03)
 
 ### Fix

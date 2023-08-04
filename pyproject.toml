@@ -48,7 +48,7 @@ dev = [
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "0.1.3"
+version = "0.1.4"
 version_files = [
     "pyproject.toml:version",
     "ckanext/envidat_validators/__version__.py",
