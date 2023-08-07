@@ -1,3 +1,9 @@
+## 0.1.5 (2023-08-07)
+
+### Fix
+
+- IPackageController before_index --> before_dataset_index
+
 ## 0.1.4 (2023-08-04)
 
 ### Fix
