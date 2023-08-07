@@ -37,10 +37,10 @@ class EnviDatValidatorsPlugin(SingletonPlugin):
             "envidat_minimum_description_length": envidat_minimum_description_length,
         }
 
-    # IPackageController
-    def before_index(self, data_dict):
-        """Tasks to run prior to Solr re-indexing."""
-        # TODO fix Solr indexing once repeating fields enabled
-        # https://ckan.org/blog/scheming-subfields
-        # https://github.com/ckan/ckanext-scheming#repeating_subfields
-        return data_dict
+    # # IPackageController
+    # def before_dataset_index(self, data_dict):
+    #     """Tasks to run prior to Solr re-indexing."""
+    #     # TODO fix Solr indexing once repeating fields enabled
+    #     # https://ckan.org/blog/scheming-subfields
+    #     # https://github.com/ckan/ckanext-scheming#repeating_subfields
+    #     return data_dict
