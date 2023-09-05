@@ -23,7 +23,7 @@ class EnviDatValidatorsPlugin(SingletonPlugin):
     """
 
     implements(interfaces.IValidators)
-    implements(interfaces.IPackageController, inherit=True)
+    # implements(interfaces.IPackageController, inherit=True)
 
     # IValidators
     def get_validators(self):
