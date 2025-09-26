@@ -22,3 +22,8 @@
 ---
 
 Some basic additional validation for the CKAN schema used at EnviDat.
+
+
+## Obsolete
+
+This extension is longer maintained. 
